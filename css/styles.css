@@ -3,9 +3,14 @@
 @import "variables.css";
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav_bar.css";
+@import "components/screen-header.css";
+@import "components/user-components.css";
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
   font-family: "Open Sans", sans-serif;
+  color: #2e363e;
 }
