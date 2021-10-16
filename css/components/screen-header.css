@@ -11,6 +11,17 @@
   font-weight: 600;
 }
 
+.screen-header__icons {
+  display: flex;
+  position: relative;
+}
+
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+.screen-header__icons .dot {
+  position: absolute;
+  right: -8px;
+  top: -8px;
 }
